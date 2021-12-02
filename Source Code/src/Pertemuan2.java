@@ -4,25 +4,25 @@ public class Pertemuan2 {
     public static void main(String[] args) {
 
         /** ===== TIPE DATA PADA JAVA ===== */
-        int a = 9; // Integer untuk menyimpan nilai bilangan bulat
-        double b = 5.5; // Double untuk menyimpan nilai bilangan desimal
-        float f = 5.7f; // Float untuk menyimpan nilai bilangan desimal
-        char c = '9'; // Char untuk menyimpan nilai karakter
-        boolean g = true; // Boolean untuk menyimpan nilai kebenaran
-        String s = "Hallo dunia"; // String untuk menyimpan kumpulan nilai char
-        byte x = 8; // Byte untuk menyimpan nilai bilangan bulat
-        short y = 10; // Short untuk menyimpan nilai bilangan bulat
-        long i = 7; // Long untuk menyimpan nilai bilangan bulat
+        // int a = 9; // Integer untuk menyimpan nilai bilangan bulat
+        // double b = 5.5; // Double untuk menyimpan nilai bilangan desimal
+        // float f = 5.7f; // Float untuk menyimpan nilai bilangan desimal
+        // char c = '9'; // Char untuk menyimpan nilai karakter
+        // boolean g = true; // Boolean untuk menyimpan nilai kebenaran
+        // String s = "Hallo dunia"; // String untuk menyimpan kumpulan nilai char
+        // byte x = 8; // Byte untuk menyimpan nilai bilangan bulat
+        // short y = 10; // Short untuk menyimpan nilai bilangan bulat
+        // long i = 7; // Long untuk menyimpan nilai bilangan bulat
 
         // Keyword Final untuk nilai data yang bersifat tetap
-        final double PHI = 3.14;
+        // final double PHI = 3.14;
 
         /**
          * Untuk pendeklarasian beberapa variabel yang memiliki tipe data sama dapat
          * dilakukan seperti ini
          */
         int angka1, angka2, angka3;
-        String str1, str2, str3;
+        // String str1, str2, str3;
 
         /**
          * Untuk penamaan variabel disarankan menggunakan lowercase untuk satu kata dan
@@ -54,7 +54,7 @@ public class Pertemuan2 {
         desimal1 = Math.sqrt(desimal1);
 
         // Akar 3
-        double desimal2 = Math.cbrt(27);
+        // double desimal2 = Math.cbrt(27);
 
         // Modulo (Sisa Bagi)
         angka1 = 4 % 2;
@@ -109,14 +109,14 @@ public class Pertemuan2 {
         Scanner io = new Scanner(System.in); // io merupakan nama objek dari Scanner, dapat denan bebas diganti namanya
 
         // Meminta inputan data String
-        str1 = io.next(); // Hanya satu kata yang akan diambil
-        str2 = io.nextLine(); // Dapat meminta satu kalimat penuh
+        // str1 = io.next(); // Hanya satu kata yang akan diambil
+        // str2 = io.nextLine(); // Dapat meminta satu kalimat penuh
         angka1 = io.nextInt(); // Untuk meminta inputan bertipe Integer
         desimal1 = io.nextDouble(); // Untuk meminta inputan bertipe Double
-        f = io.nextFloat(); // Untuk meminta inputan bertipe float
-        i = io.nextLong(); // Untuk meminta inputan bertipe long
-        y = io.nextShort(); // Untuk meminta inputan bertipe short
-        x = io.nextByte(); // Untuk meminta inputan bertipe byte
+        // f = io.nextFloat(); // Untuk meminta inputan bertipe float
+        // i = io.nextLong(); // Untuk meminta inputan bertipe long
+        // y = io.nextShort(); // Untuk meminta inputan bertipe short
+        // x = io.nextByte(); // Untuk meminta inputan bertipe byte
 
         /** ===== PROGRAM INPUT OUTPUT SEDERHANA ===== */
         System.out.print("Masukkan Nama\t\t: ");
